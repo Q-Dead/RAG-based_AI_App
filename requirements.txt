@@ -12,3 +12,4 @@ llama-index-core==0.11.23
 ollama==0.3.3
 pysqlite3-binary
 streamlit-lottie==0.0.5
+pypdf==5.1.0
