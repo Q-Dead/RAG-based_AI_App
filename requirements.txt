@@ -11,3 +11,4 @@ langsmith==0.1.142
 llama-index-core==0.11.23
 ollama==0.3.3
 pysqlite3-binary
+streamlit-lottie==0.0.5
