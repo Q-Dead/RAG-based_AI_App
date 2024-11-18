@@ -1,0 +1,82 @@
+Name: Jasper John Jaso
+Birthday: February 23 2000
+Birthplace: Tanza Cavite Philippines
+Address: San Isidro Resettlement, Magalang, Pampanga, Philippines
+Citizenship: Filipino
+Religion: agnostic
+
+Family Background
+Mother Maiden name: Remedios Arsenio Naguit
+Fathers name: Nestor Jarabice Jaso
+No. of sibling: 1
+
+Educational Background
+Primary School: Cabalantian Elementary School Magalang
+    Address: Sta. Lucia Resettlement, Magalang, 2011, Pampanga, Philippines
+    From: June 2006 To: March 2012
+
+Junior High School: Madapdap High School
+    Address: 6JG7+9W5, Mabalacat, Pampanga, Philippines
+    From: June 2012 To: March 2016
+
+Senior High School: Madapdap Resettlement Senior High School 
+    Address: 6JG7+9W5, Mabalacat, Pampanga, Philippines
+    From: June 2016 To: March 2018
+    Track: Academic
+    Strand: Science, Technology, Engineering, and Mathematics
+
+Tertiary School: Don Honorio Ventura State University
+    Campus: Bacolor (Main)
+    Address: Bacolor, 2001 Pampanga, Philippines
+    From: June 2018 To: Aug 2022
+    Degree: Bachelor of Science in Computer Engineering
+
+Licenses, trainings & certifications:
+
+    CCCourse Conclusion & Final Assessment:
+        Issuing organization: ISC2
+        Issued: Nov 2024 · Expires: Nov 2027
+        Credential ID: b0ec81ce-cfbe-4c78-ba42-f4a9df83f95c
+        Skills: Incident Response · Security Information and Event Management (SIEM) · Disaster Recovery Concepts · Security Operations · Network Security · Security Principles · Access Control Concepts · Business Continuity · Cybersecurity · Internet Protocol Suite (TCP/IP)
+
+    Jr Penetration Tester:
+        Issuing organization: TryHackMe
+        Issued: Oct 2024
+        Credential ID: THM-SRGIBUWWXK
+        Skills: Nmap · Penetration Testing Fundamentals · Metasploit · Burp Suite · Network Security · Privilege Escalation · Cybersecurity · Internet Protocol Suite (TCP/IP)
+
+    Web Fundamentals:
+        Issuing organization: TryHackMe
+        Issued: Oct 2024
+        Credential ID THM-NBTQ4XTJND
+        Skills: Introduction to Web Hacking · Burp Suite · Remote Code Execution · Cybersecurity · Internet Protocol Suite (TCP/IP)
+    
+    Pre Security:
+        Issuing organization: TryHackMe
+        Issued Sep 2024
+        Skills: Introduction to Web Hacking · Burp Suite · Remote Code
+        Execution · Cybersecurity · Internet Protocol Suite (TCP/IP)
+        Skills: Network Fundamentals · Bash · Windows Fundamentals · Linux
+        Fundamentals · Cybersecurity
+
+    Kaggle: Intermediate Machine Learning:
+        Issuing organization: Kaggle
+        Issued: Aug 2024
+        Skills: Data Pipelines · Scikit-Learn · Machine Learning · NumPy
+
+    Kaggle: Intro to Machine Learnin:
+        Issuing organization: Kaggle
+        Issued: Aug 2024
+        Skills: Pandas (Software) · Machine Learning
+    
+    Quantum Computing Fundamentals:
+        Issuing organization: LinkedIn
+        Issued: Aug 2023
+        Skills: Seaborn · Physics · Pandas (Software) · Jupyter · Quantum · Computing · NumPy · Python (Programming Language) · Quantum Physics from Beginner to Expert (Quantum mechanics)
+    
+    Quantum Physics from Beginner to Expert (Quantum mechanics):
+        Issuing organization: Udemy
+        Issued: Aug 2023
+        Credential ID UC-77e3f004-4532-4005-84c8-e4f34557b9bc
+        Skills: Physics · Pandas (Software) · Quantum Computing · Python (Programming Language) · Quantum Mechanics
+    
