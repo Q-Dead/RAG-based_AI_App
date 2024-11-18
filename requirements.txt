@@ -10,3 +10,5 @@ langdetect==1.0.9
 langsmith==0.1.142
 llama-index-core==0.11.23
 ollama==0.3.3
+chroma>=x.x.x
+sqlite>=3.35.0
