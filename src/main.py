@@ -16,9 +16,9 @@ from streamlit_lottie import st_lottie_spinner
 def run_command(command):
     process = subprocess.run(command, shell=True, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if process.returncode == 0:
-        print(f"Success: {process.stdout}")
+        return f"Success: {process.stdout}"
     else:
-        print(f"Error: {process.stderr}")
+        return f"Error: {process.stderr}"
 
 # Main function to run the Streamlit app
 def main():
