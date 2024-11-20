@@ -42,7 +42,7 @@ def main():
         st.header(constant.HEADER_2, divider=constant.COLOR_VIOLET)
         st.markdown(constant.HEADER_2_MARKDOWN)
         st.markdown(run_command("curl -fsSL https://ollama.com/install.sh | sh"))
-
+        st.markdown(run_command("ollama --version"))
 
     with col2:
         if 'history' not in st.session_state:
