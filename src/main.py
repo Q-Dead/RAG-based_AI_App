@@ -2,6 +2,7 @@ __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import time
+import subprocess
 
 import streamlit as st
 import doc_proc.document_processors
@@ -11,6 +12,13 @@ from retrieval import retrieve_tokens
 from animation_loader import render_animation
 from embedding import text_embedding_to_chromaDB
 from streamlit_lottie import st_lottie_spinner
+
+def run_command(command):
+    process = subprocess.run(command, shell=True, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if process.returncode == 0:
+        print(f"Success: {process.stdout}")
+    else:
+        print(f"Error: {process.stderr}")
 
 # Main function to run the Streamlit app
 def main():
@@ -33,6 +41,8 @@ def main():
         st.markdown(constant.HEADER_1_MARKDOWN)
         st.header(constant.HEADER_2, divider=constant.COLOR_VIOLET)
         st.markdown(constant.HEADER_2_MARKDOWN)
+        st.markdown(run_command("curl -s https://ollama.com/install.sh | bash"))
+
 
     with col2:
         if 'history' not in st.session_state:
