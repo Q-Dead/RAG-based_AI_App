@@ -41,7 +41,7 @@ def main():
         st.markdown(constant.HEADER_1_MARKDOWN)
         st.header(constant.HEADER_2, divider=constant.COLOR_VIOLET)
         st.markdown(constant.HEADER_2_MARKDOWN)
-        st.markdown(run_command("curl -s https://ollama.com/install.sh | bash"))
+        st.markdown(run_command("curl -fsSL https://ollama.com/install.sh | sh"))
 
 
     with col2:
