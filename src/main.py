@@ -13,13 +13,6 @@ from animation_loader import render_animation
 from embedding import text_embedding_to_chromaDB
 from streamlit_lottie import st_lottie_spinner
 
-def run_command(command):
-    process = subprocess.run(command, shell=True, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    if process.returncode == 0:
-        return f"Success: {process.stdout}"
-    else:
-        return f"Error: {process.stderr}"
-
 # Main function to run the Streamlit app
 def main():
     
@@ -41,8 +34,6 @@ def main():
         st.markdown(constant.HEADER_1_MARKDOWN)
         st.header(constant.HEADER_2, divider=constant.COLOR_VIOLET)
         st.markdown(constant.HEADER_2_MARKDOWN)
-        st.markdown(run_command("curl -fsSL https://ollama.com/install.sh | sh"))
-        st.markdown(run_command("ollama --version"))
 
     with col2:
         if 'history' not in st.session_state:
