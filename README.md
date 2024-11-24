@@ -21,7 +21,7 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to provi
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/your-username/rag-chatbot.git](https://github.com/Q-Dead/RAG-based_AI_App 
+git clone https://github.com/Q-Dead/RAG-based_AI_App 
 cd rag-chatbot
 ```
 
