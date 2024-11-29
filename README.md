@@ -27,23 +27,44 @@ cd rag-chatbot
 
 2. **Set up the environment:**
    
-  Create a virtual environment and install dependencies.
+&nbsp; &nbsp; Create a virtual environment and install dependencies.
 
 ```bash
 python -m venv .venv
 ```
-**Linux/MacOS**
+&nbsp; &nbsp; **Linux/MacOS**
 ```bash
 source .venv/bin/activate
 ```
-**Windows**
+&nbsp; &nbsp; **Windows**
 ```bash
 .\.venv\Scripts\activate
 ```
 ```bash
 pip install -r requirements.txt
 ``` 
-3. **Install additional tools:**
+3. **Install Ollama Model 3.2**
+Follow these steps to install Ollama:
+
+&nbsp; &nbsp; **Windows**
+
+&nbsp; &nbsp; Download the installer for Ollama 3.2 from the official Ollama website and follow the instructions to install it.
+
+&nbsp; &nbsp; **macOS**
+```bash
+brew install ollama@3.2
+```
+
+&nbsp; &nbsp; **Linux**
+
+&nbsp; &nbsp;For Linux-based systems, use the following commands:
+
+```bash
+wget https://ollama.com/download/ollama_3.2_linux.tar.gz
+tar -xzvf ollama_3.2_linux.tar.gz
+sudo mv ollama /usr/local/bin/
+```
+
 Ensure tools for PDF processing (e.g., PyMuPDF) and embeddings (e.g., sentence-transformers) are installed.
 
 ## Usage
